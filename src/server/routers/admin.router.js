@@ -1,10 +1,13 @@
 const router = require("express").Router();
 let Admin = require("../model/admin..model");
 
-router.route("/create").post((req, res) => {
+router.route("/signup").post((req, res) => {
   const username = req.body.username;
+  const password = req.body.password;
+
   const newAdmin = new Admin({
     username,
+    password,
   });
 
   newAdmin

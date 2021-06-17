@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(16, 71, 99, 0.898);
+  text-align: right;
+  padding: 10px;
+  border-radius: 2px 2px 0px 0px;
+  
+ .contact {
+   color: rgba(10, 42, 57, 0.85);
+  }
+  
+  .copyright {
+    color: rgba(13, 55, 76, 0.85);
+  }
+}

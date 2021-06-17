@@ -1,0 +1,39 @@
+.welcome {
+    padding-top: 100px;
+    font-size: larger;
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .admin-card {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid darkgreen;
+        border-radius: 5px;
+        
+        .admin {
+            font-family: 'Hammersmith One', sans-serif;
+            background-color: rgb(90, 206, 136);
+            border-radius: 3px 3px 0px 0px;
+            padding: 15px;
+        }
+    }
+    
+    .student-card {
+        
+        display: flex;
+        flex-direction: column;
+        border: 3px solid rgb(87, 128, 87);
+        border-radius: 5px;
+        .student {
+            font-family: 'Hammersmith One', sans-serif;
+            padding: 15px;
+            background-color: rgb(93, 128, 124);
+            border-radius: 3px 3px 0px 0px;
+        }
+    }
+    
+}
